@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "----- TINC DOWN" | tee -a /var/log/tinc-border579 | logger -t tinc-border579
+ifconfig $INTERFACE down

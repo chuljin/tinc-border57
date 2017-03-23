@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "----- TINC UP" | tee -a /var/log/tinc-border579 | logger -t tinc-border579
+ifconfig $INTERFACE up
