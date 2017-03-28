@@ -1,3 +1,3 @@
 #!/bin/sh
-echo "----- SUBNET DOWN: $SUBNET $WEIGHT $NODE" | tee -a /var/log/tinc-border579 | logger -t tinc-border579
+echo "----- SUBNET DOWN: $SUBNET $WEIGHT $NODE" | tee -a /var/log/tinc-border57 | logger -t tinc-border57
 ip ro del $SUBNET dev $INTERFACE

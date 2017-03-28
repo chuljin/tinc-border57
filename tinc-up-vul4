@@ -1,4 +1,4 @@
 #!/bin/sh
-echo "----- TINC UP" | tee -a /var/log/tinc-border579 | logger -t tinc-border579
+echo "----- TINC UP" | tee -a /var/log/tinc-border57 | logger -t tinc-border57
 ifconfig $INTERFACE up
 ip addr add 44.16.51.218/29 broadcast 44.16.51.223 scope link dev $INTERFACE
